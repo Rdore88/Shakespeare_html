@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  border-bottom: dotted thick;
+  background-color: #F5F5DC;
+  font-style: italic;
+  margin: 0px;
+  font-family: "Impact"
+}
+
+main {
+  background-color: #F5F5DC;
+}
+
+body {
+  text-align: center;
+  border: dotted thick;
+  background-color: #E2AC7F;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav p::first-letter {
+    font-size: 130%;
+  }
+
+nav p {
+  line-height: 7px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+#footer {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#first-paragraph {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
